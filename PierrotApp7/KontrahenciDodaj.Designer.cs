@@ -57,6 +57,8 @@
             System.Windows.Forms.Label jPK_KlasyfikacjaLabel;
             System.Windows.Forms.Label label1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KontrahenciDodaj));
+            System.Windows.Forms.Label label2;
+            System.Windows.Forms.Label label3;
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.nazwa_kontrahentaTextBox = new System.Windows.Forms.TextBox();
             this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -78,24 +80,15 @@
             this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
             this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
             this.kontrahenciBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem2 = new System.Windows.Forms.ToolStripTextBox();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.kontrahenciBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.Wynik = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.NIP = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.jPK_KlasyfikacjaTextBox = new System.Windows.Forms.TextBox();
@@ -111,12 +104,24 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.Wynik = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.kontrahenciBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             nr_kontahentaLabel = new System.Windows.Forms.Label();
             nazwa_kontrahentaLabel = new System.Windows.Forms.Label();
             nIPLabel = new System.Windows.Forms.Label();
@@ -144,6 +149,8 @@
             vcLabel = new System.Windows.Forms.Label();
             jPK_KlasyfikacjaLabel = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
@@ -151,6 +158,7 @@
             this.kontrahenciBindingNavigator.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -168,16 +176,16 @@
             // nazwa_kontrahentaLabel
             // 
             nazwa_kontrahentaLabel.AutoSize = true;
-            nazwa_kontrahentaLabel.Location = new System.Drawing.Point(6, 34);
+            nazwa_kontrahentaLabel.Location = new System.Drawing.Point(12, 62);
             nazwa_kontrahentaLabel.Name = "nazwa_kontrahentaLabel";
-            nazwa_kontrahentaLabel.Size = new System.Drawing.Size(103, 13);
+            nazwa_kontrahentaLabel.Size = new System.Drawing.Size(78, 13);
             nazwa_kontrahentaLabel.TabIndex = 2;
-            nazwa_kontrahentaLabel.Text = "Nazwa kontrahenta:";
+            nazwa_kontrahentaLabel.Text = "Nazwa własna";
             // 
             // nIPLabel
             // 
             nIPLabel.AutoSize = true;
-            nIPLabel.Location = new System.Drawing.Point(10, 98);
+            nIPLabel.Location = new System.Drawing.Point(21, 30);
             nIPLabel.Name = "nIPLabel";
             nIPLabel.Size = new System.Drawing.Size(28, 13);
             nIPLabel.TabIndex = 4;
@@ -213,7 +221,7 @@
             // krajLabel
             // 
             krajLabel.AutoSize = true;
-            krajLabel.Location = new System.Drawing.Point(10, 202);
+            krajLabel.Location = new System.Drawing.Point(12, 230);
             krajLabel.Name = "krajLabel";
             krajLabel.Size = new System.Drawing.Size(28, 13);
             krajLabel.TabIndex = 12;
@@ -222,7 +230,7 @@
             // wojewodztwoLabel
             // 
             wojewodztwoLabel.AutoSize = true;
-            wojewodztwoLabel.Location = new System.Drawing.Point(10, 228);
+            wojewodztwoLabel.Location = new System.Drawing.Point(12, 256);
             wojewodztwoLabel.Name = "wojewodztwoLabel";
             wojewodztwoLabel.Size = new System.Drawing.Size(77, 13);
             wojewodztwoLabel.TabIndex = 14;
@@ -390,21 +398,19 @@
             jPK_KlasyfikacjaLabel.TabIndex = 50;
             jPK_KlasyfikacjaLabel.Text = "JPK Klasyfikacja:";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(33, 35);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(28, 13);
-            label1.TabIndex = 33;
-            label1.Text = "NIP:";
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(nazwa_kontrahentaLabel);
-            this.groupBox1.Controls.Add(this.nazwa_kontrahentaTextBox);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(label3);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(label2);
+            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(nIPLabel);
             this.groupBox1.Controls.Add(this.nIPTextBox);
+            this.groupBox1.Controls.Add(label1);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(nazwa_kontrahentaLabel);
+            this.groupBox1.Controls.Add(this.nazwa_kontrahentaTextBox);
             this.groupBox1.Controls.Add(miastoLabel);
             this.groupBox1.Controls.Add(this.miastoTextBox);
             this.groupBox1.Controls.Add(kodLabel);
@@ -431,9 +437,9 @@
             this.groupBox1.Controls.Add(this.ilość_pkt_TextBox);
             this.groupBox1.Controls.Add(wartość_pkt_Label);
             this.groupBox1.Controls.Add(this.wartość_pkt_TextBox);
-            this.groupBox1.Location = new System.Drawing.Point(18, 90);
+            this.groupBox1.Location = new System.Drawing.Point(15, 84);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(588, 273);
+            this.groupBox1.Size = new System.Drawing.Size(561, 273);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -441,7 +447,7 @@
             // nazwa_kontrahentaTextBox
             // 
             this.nazwa_kontrahentaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Nazwa kontrahenta", true));
-            this.nazwa_kontrahentaTextBox.Location = new System.Drawing.Point(115, 31);
+            this.nazwa_kontrahentaTextBox.Location = new System.Drawing.Point(121, 59);
             this.nazwa_kontrahentaTextBox.Name = "nazwa_kontrahentaTextBox";
             this.nazwa_kontrahentaTextBox.Size = new System.Drawing.Size(100, 20);
             this.nazwa_kontrahentaTextBox.TabIndex = 3;
@@ -459,10 +465,11 @@
             // nIPTextBox
             // 
             this.nIPTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "NIP", true));
-            this.nIPTextBox.Location = new System.Drawing.Point(119, 95);
+            this.nIPTextBox.Location = new System.Drawing.Point(55, 28);
             this.nIPTextBox.Name = "nIPTextBox";
             this.nIPTextBox.Size = new System.Drawing.Size(100, 20);
             this.nIPTextBox.TabIndex = 5;
+            this.nIPTextBox.TextChanged += new System.EventHandler(this.nIPTextBox_TextChanged);
             // 
             // miastoTextBox
             // 
@@ -483,7 +490,7 @@
             // ulicaTextBox
             // 
             this.ulicaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Ulica", true));
-            this.ulicaTextBox.Location = new System.Drawing.Point(119, 173);
+            this.ulicaTextBox.Location = new System.Drawing.Point(50, 173);
             this.ulicaTextBox.Name = "ulicaTextBox";
             this.ulicaTextBox.Size = new System.Drawing.Size(100, 20);
             this.ulicaTextBox.TabIndex = 11;
@@ -491,7 +498,7 @@
             // krajTextBox
             // 
             this.krajTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Kraj", true));
-            this.krajTextBox.Location = new System.Drawing.Point(119, 199);
+            this.krajTextBox.Location = new System.Drawing.Point(121, 227);
             this.krajTextBox.Name = "krajTextBox";
             this.krajTextBox.Size = new System.Drawing.Size(100, 20);
             this.krajTextBox.TabIndex = 13;
@@ -499,7 +506,7 @@
             // wojewodztwoTextBox
             // 
             this.wojewodztwoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Wojewodztwo", true));
-            this.wojewodztwoTextBox.Location = new System.Drawing.Point(115, 225);
+            this.wojewodztwoTextBox.Location = new System.Drawing.Point(117, 253);
             this.wojewodztwoTextBox.Name = "wojewodztwoTextBox";
             this.wojewodztwoTextBox.Size = new System.Drawing.Size(100, 20);
             this.wojewodztwoTextBox.TabIndex = 15;
@@ -599,25 +606,16 @@
             this.bindingNavigatorDeleteItem,
             this.kontrahenciBindingNavigatorSaveItem,
             this.toolStripButton1});
-            this.kontrahenciBindingNavigator.Location = new System.Drawing.Point(0, 395);
+            this.kontrahenciBindingNavigator.Location = new System.Drawing.Point(0, 428);
             this.kontrahenciBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.kontrahenciBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.kontrahenciBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
             this.kontrahenciBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.kontrahenciBindingNavigator.Name = "kontrahenciBindingNavigator";
             this.kontrahenciBindingNavigator.PositionItem = this.bindingNavigatorPositionItem2;
-            this.kontrahenciBindingNavigator.Size = new System.Drawing.Size(1106, 25);
+            this.kontrahenciBindingNavigator.Size = new System.Drawing.Size(1094, 25);
             this.kontrahenciBindingNavigator.TabIndex = 1;
             this.kontrahenciBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Dodaj nowy";
             // 
             // bindingNavigatorCountItem
             // 
@@ -626,35 +624,6 @@
             this.bindingNavigatorCountItem.Text = "z {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Suma elementów";
             this.bindingNavigatorCountItem.Visible = false;
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Usuń";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveFirstItem.Text = "Przenieś pierwszy";
-            this.bindingNavigatorMoveFirstItem.Visible = false;
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMovePreviousItem.Text = "Przenieś poprzedni";
-            this.bindingNavigatorMovePreviousItem.Visible = false;
             // 
             // bindingNavigatorSeparator
             // 
@@ -677,51 +646,11 @@
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             this.bindingNavigatorSeparator1.Visible = false;
             // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveNextItem.Text = "Przenieś następny";
-            this.bindingNavigatorMoveNextItem.Visible = false;
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveLastItem.Text = "Przenieś ostatni";
-            this.bindingNavigatorMoveLastItem.Visible = false;
-            // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
             this.bindingNavigatorSeparator2.Visible = false;
-            // 
-            // kontrahenciBindingNavigatorSaveItem
-            // 
-            this.kontrahenciBindingNavigatorSaveItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.kontrahenciBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("kontrahenciBindingNavigatorSaveItem.Image")));
-            this.kontrahenciBindingNavigatorSaveItem.Name = "kontrahenciBindingNavigatorSaveItem";
-            this.kontrahenciBindingNavigatorSaveItem.Size = new System.Drawing.Size(89, 22);
-            this.kontrahenciBindingNavigatorSaveItem.Text = "Zapisz dane";
-            this.kontrahenciBindingNavigatorSaveItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.kontrahenciBindingNavigatorSaveItem.Click += new System.EventHandler(this.kontrahenciBindingNavigatorSaveItem_Click_1);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(62, 22);
-            this.toolStripButton1.Text = "Anuluj";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // tabControl1
             // 
@@ -734,51 +663,42 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1106, 395);
+            this.tabControl1.Size = new System.Drawing.Size(1094, 428);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
             // 
             this.tabPage1.AutoScroll = true;
-            this.tabPage1.Controls.Add(this.Wynik);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(label1);
-            this.tabPage1.Controls.Add(this.NIP);
-            this.tabPage1.Controls.Add(this.tabControl2);
-            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1098, 369);
+            this.tabPage1.Size = new System.Drawing.Size(1086, 402);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "1) Informacje podstawowe";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // Wynik
+            // groupBox2
             // 
-            this.Wynik.Location = new System.Drawing.Point(257, 65);
-            this.Wynik.Name = "Wynik";
-            this.Wynik.Size = new System.Drawing.Size(257, 60);
-            this.Wynik.TabIndex = 35;
-            this.Wynik.Text = "";
+            this.groupBox2.Controls.Add(this.groupBox1);
+            this.groupBox2.Controls.Add(this.tabControl2);
+            this.groupBox2.Controls.Add(this.Wynik);
+            this.groupBox2.Location = new System.Drawing.Point(8, 15);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1035, 365);
+            this.groupBox2.TabIndex = 39;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
             // 
-            // button1
+            // button2
             // 
-            this.button1.Location = new System.Drawing.Point(172, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 23);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Pobierz z GUS";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // NIP
-            // 
-            this.NIP.Location = new System.Drawing.Point(66, 32);
-            this.NIP.Name = "NIP";
-            this.NIP.Size = new System.Drawing.Size(100, 20);
-            this.NIP.TabIndex = 2;
-            this.NIP.Text = "123-456-78-90";
+            this.button2.Location = new System.Drawing.Point(161, 26);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(105, 23);
+            this.button2.TabIndex = 37;
+            this.button2.Text = "Pobierz z GUS";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // tabControl2
             // 
@@ -786,7 +706,7 @@
             this.tabControl2.Controls.Add(this.tabPage7);
             this.tabControl2.Controls.Add(this.tabPage8);
             this.tabControl2.Controls.Add(this.tabPage9);
-            this.tabControl2.Location = new System.Drawing.Point(608, 10);
+            this.tabControl2.Location = new System.Drawing.Point(582, 29);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(442, 326);
@@ -930,12 +850,20 @@
             this.tabPage9.Text = "8) Dostawy";
             this.tabPage9.UseVisualStyleBackColor = true;
             // 
+            // Wynik
+            // 
+            this.Wynik.Location = new System.Drawing.Point(236, 18);
+            this.Wynik.Name = "Wynik";
+            this.Wynik.Size = new System.Drawing.Size(257, 60);
+            this.Wynik.TabIndex = 35;
+            this.Wynik.Text = "";
+            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1098, 369);
+            this.tabPage2.Size = new System.Drawing.Size(1059, 402);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "2) Dane handlowe";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -944,7 +872,7 @@
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1098, 369);
+            this.tabPage3.Size = new System.Drawing.Size(1059, 402);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "3) Dane handlowe c.d, JPK, program lojalnościowy";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -953,7 +881,7 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1098, 369);
+            this.tabPage4.Size = new System.Drawing.Size(1059, 402);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "4) Uwagi, inne";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -962,7 +890,7 @@
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1098, 369);
+            this.tabPage5.Size = new System.Drawing.Size(1059, 402);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "9) RODO";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -974,7 +902,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1106, 31);
+            this.panel1.Size = new System.Drawing.Size(1094, 31);
             this.panel1.TabIndex = 4;
             // 
             // bindingNavigatorPositionItem
@@ -985,17 +913,149 @@
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(100, 20);
             this.bindingNavigatorPositionItem.TabIndex = 15;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(16, 90);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(103, 13);
+            label1.TabIndex = 32;
+            label1.Text = "Nazwa kontrahenta:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Nazwa kontrahenta", true));
+            this.textBox1.Location = new System.Drawing.Point(125, 87);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 33;
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Dodaj nowy";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Usuń";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Text = "Przenieś pierwszy";
+            this.bindingNavigatorMoveFirstItem.Visible = false;
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Text = "Przenieś poprzedni";
+            this.bindingNavigatorMovePreviousItem.Visible = false;
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Text = "Przenieś następny";
+            this.bindingNavigatorMoveNextItem.Visible = false;
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Text = "Przenieś ostatni";
+            this.bindingNavigatorMoveLastItem.Visible = false;
+            // 
+            // kontrahenciBindingNavigatorSaveItem
+            // 
+            this.kontrahenciBindingNavigatorSaveItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.kontrahenciBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("kontrahenciBindingNavigatorSaveItem.Image")));
+            this.kontrahenciBindingNavigatorSaveItem.Name = "kontrahenciBindingNavigatorSaveItem";
+            this.kontrahenciBindingNavigatorSaveItem.Size = new System.Drawing.Size(89, 22);
+            this.kontrahenciBindingNavigatorSaveItem.Text = "Zapisz dane";
+            this.kontrahenciBindingNavigatorSaveItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.kontrahenciBindingNavigatorSaveItem.Click += new System.EventHandler(this.kontrahenciBindingNavigatorSaveItem_Click_1);
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(62, 22);
+            this.toolStripButton1.Text = "Anuluj";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(245, 176);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(49, 13);
+            label2.TabIndex = 34;
+            label2.Text = "Nr lokalu";
+            // 
+            // textBox2
+            // 
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Ulica", true));
+            this.textBox2.Location = new System.Drawing.Point(300, 173);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(18, 20);
+            this.textBox2.TabIndex = 35;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new System.Drawing.Point(166, 176);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(43, 13);
+            label3.TabIndex = 36;
+            label3.Text = "Nr Nier.";
+            // 
+            // textBox3
+            // 
+            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kontrahenciBindingSource, "Ulica", true));
+            this.textBox3.Location = new System.Drawing.Point(221, 173);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(18, 20);
+            this.textBox3.TabIndex = 37;
+            // 
             // KontrahenciDodaj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1106, 420);
+            this.ClientSize = new System.Drawing.Size(1094, 453);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.kontrahenciBindingNavigator);
             this.Name = "KontrahenciDodaj";
             this.Text = "Dodawanie kontrahenta";
+            this.Activated += new System.EventHandler(this.KontrahenciDodaj_Activated);
             this.Load += new System.EventHandler(this.KontrahenciDodaj_Load);
+            this.Shown += new System.EventHandler(this.KontrahenciDodaj_Shown);
+            this.Click += new System.EventHandler(this.KontrahenciDodaj_Click);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).EndInit();
@@ -1005,7 +1065,7 @@
             this.kontrahenciBindingNavigator.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
@@ -1075,8 +1135,11 @@
         private System.Windows.Forms.TextBox nazwa_klasyfikacjiTextBox;
         private System.Windows.Forms.TextBox peselTextBox;
         private System.Windows.Forms.TextBox konto_Raks_FMTextBox;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox NIP;
         private System.Windows.Forms.RichTextBox Wynik;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

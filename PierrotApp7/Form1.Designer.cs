@@ -67,41 +67,12 @@
             this.dokumentyMagazynoweToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dokumentySADToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStart = new System.Windows.Forms.MenuStrip();
-            this.zmieńDatęToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Kontrahenci = new System.Windows.Forms.TabPage();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.kontrahenciDataGridView = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nazwaKontrahentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nIPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.miastoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ulicaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.krajDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.wojewodztwoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.powiatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nrKontahentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kontoFKDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rEGONDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.płatnikDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.uwagiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ilośćPktDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.wartośćPktDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kontoRaksFMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.peselDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nazwaGrupyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.handlowiecDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailKontrahentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nrTelefonuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.allegroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.jPKKlasyfikacjaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kontrahenciBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.database1DataSet = new PierrotApp7.Database1DataSet();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -122,32 +93,6 @@
             this.treeView2 = new System.Windows.Forms.TreeView();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tabPage15 = new System.Windows.Forms.TabPage();
@@ -176,9 +121,6 @@
             this.tabPage13 = new System.Windows.Forms.TabPage();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.RefKontrahenci = new System.Windows.Forms.Timer(this.components);
-            this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
-            this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
             this.przycisk1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.przycisk2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zamówieniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -198,6 +140,64 @@
             this.konfiguracjaFirmyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zestawieniaIAnalizyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ponowneLogowanieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zmieńDatęToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nazwaKontrahentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nIPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.miastoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ulicaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.krajDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.wojewodztwoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.powiatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nrKontahentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kontoFKDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rEGONDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.płatnikDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.uwagiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ilośćPktDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.wartośćPktDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kontoRaksFMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.peselDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nazwaGrupyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.handlowiecDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailKontrahentaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nrTelefonuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.allegroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.jPKKlasyfikacjaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kontrahenciBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet = new PierrotApp7.Database1DataSet();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
+            this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
             this.menuStrip1.SuspendLayout();
             this.MenuMagazyn.SuspendLayout();
             this.MenuStart.SuspendLayout();
@@ -212,8 +212,6 @@
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
             this.tabControl2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -230,6 +228,8 @@
             this.tabControl3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -369,16 +369,6 @@
             this.MenuStart.Size = new System.Drawing.Size(1722, 80);
             this.MenuStart.TabIndex = 0;
             this.MenuStart.Text = "menuStrip2";
-            // 
-            // zmieńDatęToolStripMenuItem
-            // 
-            this.zmieńDatęToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.zmieńDatęToolStripMenuItem.Enabled = false;
-            this.zmieńDatęToolStripMenuItem.Image = global::PierrotApp7.Properties.Resources.ZmienDate;
-            this.zmieńDatęToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.zmieńDatęToolStripMenuItem.Name = "zmieńDatęToolStripMenuItem";
-            this.zmieńDatęToolStripMenuItem.Size = new System.Drawing.Size(79, 76);
-            this.zmieńDatęToolStripMenuItem.Text = "Zmień datę";
             // 
             // tabControl1
             // 
@@ -520,199 +510,6 @@
             this.kontrahenciDataGridView.Size = new System.Drawing.Size(1428, 290);
             this.kontrahenciDataGridView.TabIndex = 0;
             // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn.Visible = false;
-            // 
-            // nazwaKontrahentaDataGridViewTextBoxColumn
-            // 
-            this.nazwaKontrahentaDataGridViewTextBoxColumn.DataPropertyName = "Nazwa kontrahenta";
-            this.nazwaKontrahentaDataGridViewTextBoxColumn.HeaderText = "Nazwa kontrahenta";
-            this.nazwaKontrahentaDataGridViewTextBoxColumn.Name = "nazwaKontrahentaDataGridViewTextBoxColumn";
-            this.nazwaKontrahentaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nIPDataGridViewTextBoxColumn
-            // 
-            this.nIPDataGridViewTextBoxColumn.DataPropertyName = "NIP";
-            this.nIPDataGridViewTextBoxColumn.HeaderText = "NIP";
-            this.nIPDataGridViewTextBoxColumn.Name = "nIPDataGridViewTextBoxColumn";
-            this.nIPDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // miastoDataGridViewTextBoxColumn
-            // 
-            this.miastoDataGridViewTextBoxColumn.DataPropertyName = "Miasto";
-            this.miastoDataGridViewTextBoxColumn.HeaderText = "Miasto";
-            this.miastoDataGridViewTextBoxColumn.Name = "miastoDataGridViewTextBoxColumn";
-            this.miastoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // kodDataGridViewTextBoxColumn
-            // 
-            this.kodDataGridViewTextBoxColumn.DataPropertyName = "Kod";
-            this.kodDataGridViewTextBoxColumn.HeaderText = "Kod";
-            this.kodDataGridViewTextBoxColumn.Name = "kodDataGridViewTextBoxColumn";
-            this.kodDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ulicaDataGridViewTextBoxColumn
-            // 
-            this.ulicaDataGridViewTextBoxColumn.DataPropertyName = "Ulica";
-            this.ulicaDataGridViewTextBoxColumn.HeaderText = "Ulica";
-            this.ulicaDataGridViewTextBoxColumn.Name = "ulicaDataGridViewTextBoxColumn";
-            this.ulicaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // krajDataGridViewTextBoxColumn
-            // 
-            this.krajDataGridViewTextBoxColumn.DataPropertyName = "Kraj";
-            this.krajDataGridViewTextBoxColumn.HeaderText = "Kraj";
-            this.krajDataGridViewTextBoxColumn.Name = "krajDataGridViewTextBoxColumn";
-            this.krajDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // wojewodztwoDataGridViewTextBoxColumn
-            // 
-            this.wojewodztwoDataGridViewTextBoxColumn.DataPropertyName = "Wojewodztwo";
-            this.wojewodztwoDataGridViewTextBoxColumn.HeaderText = "Wojewodztwo";
-            this.wojewodztwoDataGridViewTextBoxColumn.Name = "wojewodztwoDataGridViewTextBoxColumn";
-            this.wojewodztwoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // powiatDataGridViewTextBoxColumn
-            // 
-            this.powiatDataGridViewTextBoxColumn.DataPropertyName = "Powiat";
-            this.powiatDataGridViewTextBoxColumn.HeaderText = "Powiat";
-            this.powiatDataGridViewTextBoxColumn.Name = "powiatDataGridViewTextBoxColumn";
-            this.powiatDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nrKontahentaDataGridViewTextBoxColumn
-            // 
-            this.nrKontahentaDataGridViewTextBoxColumn.DataPropertyName = "Nr kontahenta";
-            this.nrKontahentaDataGridViewTextBoxColumn.HeaderText = "Nr kontahenta";
-            this.nrKontahentaDataGridViewTextBoxColumn.Name = "nrKontahentaDataGridViewTextBoxColumn";
-            this.nrKontahentaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // kontoFKDataGridViewTextBoxColumn
-            // 
-            this.kontoFKDataGridViewTextBoxColumn.DataPropertyName = "Konto FK";
-            this.kontoFKDataGridViewTextBoxColumn.HeaderText = "Konto FK";
-            this.kontoFKDataGridViewTextBoxColumn.Name = "kontoFKDataGridViewTextBoxColumn";
-            this.kontoFKDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // rEGONDataGridViewTextBoxColumn
-            // 
-            this.rEGONDataGridViewTextBoxColumn.DataPropertyName = "REGON";
-            this.rEGONDataGridViewTextBoxColumn.HeaderText = "REGON";
-            this.rEGONDataGridViewTextBoxColumn.Name = "rEGONDataGridViewTextBoxColumn";
-            this.rEGONDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // płatnikDataGridViewTextBoxColumn
-            // 
-            this.płatnikDataGridViewTextBoxColumn.DataPropertyName = "Płatnik";
-            this.płatnikDataGridViewTextBoxColumn.HeaderText = "Płatnik";
-            this.płatnikDataGridViewTextBoxColumn.Name = "płatnikDataGridViewTextBoxColumn";
-            this.płatnikDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // uwagiDataGridViewTextBoxColumn
-            // 
-            this.uwagiDataGridViewTextBoxColumn.DataPropertyName = "Uwagi";
-            this.uwagiDataGridViewTextBoxColumn.HeaderText = "Uwagi";
-            this.uwagiDataGridViewTextBoxColumn.Name = "uwagiDataGridViewTextBoxColumn";
-            this.uwagiDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ilośćPktDataGridViewTextBoxColumn
-            // 
-            this.ilośćPktDataGridViewTextBoxColumn.DataPropertyName = "Ilość pkt_";
-            this.ilośćPktDataGridViewTextBoxColumn.HeaderText = "Ilość pkt_";
-            this.ilośćPktDataGridViewTextBoxColumn.Name = "ilośćPktDataGridViewTextBoxColumn";
-            this.ilośćPktDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // wartośćPktDataGridViewTextBoxColumn
-            // 
-            this.wartośćPktDataGridViewTextBoxColumn.DataPropertyName = "Wartość pkt_";
-            this.wartośćPktDataGridViewTextBoxColumn.HeaderText = "Wartość pkt_";
-            this.wartośćPktDataGridViewTextBoxColumn.Name = "wartośćPktDataGridViewTextBoxColumn";
-            this.wartośćPktDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // kontoRaksFMDataGridViewTextBoxColumn
-            // 
-            this.kontoRaksFMDataGridViewTextBoxColumn.DataPropertyName = "Konto Raks FM";
-            this.kontoRaksFMDataGridViewTextBoxColumn.HeaderText = "Konto Raks FM";
-            this.kontoRaksFMDataGridViewTextBoxColumn.Name = "kontoRaksFMDataGridViewTextBoxColumn";
-            this.kontoRaksFMDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // peselDataGridViewTextBoxColumn
-            // 
-            this.peselDataGridViewTextBoxColumn.DataPropertyName = "Pesel";
-            this.peselDataGridViewTextBoxColumn.HeaderText = "Pesel";
-            this.peselDataGridViewTextBoxColumn.Name = "peselDataGridViewTextBoxColumn";
-            this.peselDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nazwaKlasyfikacjiDataGridViewTextBoxColumn
-            // 
-            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.DataPropertyName = "Nazwa klasyfikacji";
-            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.HeaderText = "Nazwa klasyfikacji";
-            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.Name = "nazwaKlasyfikacjiDataGridViewTextBoxColumn";
-            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nazwaGrupyDataGridViewTextBoxColumn
-            // 
-            this.nazwaGrupyDataGridViewTextBoxColumn.DataPropertyName = "Nazwa grupy";
-            this.nazwaGrupyDataGridViewTextBoxColumn.HeaderText = "Nazwa grupy";
-            this.nazwaGrupyDataGridViewTextBoxColumn.Name = "nazwaGrupyDataGridViewTextBoxColumn";
-            this.nazwaGrupyDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // handlowiecDataGridViewTextBoxColumn
-            // 
-            this.handlowiecDataGridViewTextBoxColumn.DataPropertyName = "Handlowiec";
-            this.handlowiecDataGridViewTextBoxColumn.HeaderText = "Handlowiec";
-            this.handlowiecDataGridViewTextBoxColumn.Name = "handlowiecDataGridViewTextBoxColumn";
-            this.handlowiecDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // emailKontrahentaDataGridViewTextBoxColumn
-            // 
-            this.emailKontrahentaDataGridViewTextBoxColumn.DataPropertyName = "E-mail kontrahenta";
-            this.emailKontrahentaDataGridViewTextBoxColumn.HeaderText = "E-mail kontrahenta";
-            this.emailKontrahentaDataGridViewTextBoxColumn.Name = "emailKontrahentaDataGridViewTextBoxColumn";
-            this.emailKontrahentaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nrTelefonuDataGridViewTextBoxColumn
-            // 
-            this.nrTelefonuDataGridViewTextBoxColumn.DataPropertyName = "Nr telefonu";
-            this.nrTelefonuDataGridViewTextBoxColumn.HeaderText = "Nr telefonu";
-            this.nrTelefonuDataGridViewTextBoxColumn.Name = "nrTelefonuDataGridViewTextBoxColumn";
-            this.nrTelefonuDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // allegroDataGridViewTextBoxColumn
-            // 
-            this.allegroDataGridViewTextBoxColumn.DataPropertyName = "Allegro";
-            this.allegroDataGridViewTextBoxColumn.HeaderText = "Allegro";
-            this.allegroDataGridViewTextBoxColumn.Name = "allegroDataGridViewTextBoxColumn";
-            this.allegroDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // vcDataGridViewTextBoxColumn
-            // 
-            this.vcDataGridViewTextBoxColumn.DataPropertyName = "Vc";
-            this.vcDataGridViewTextBoxColumn.HeaderText = "Vc";
-            this.vcDataGridViewTextBoxColumn.Name = "vcDataGridViewTextBoxColumn";
-            this.vcDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // jPKKlasyfikacjaDataGridViewTextBoxColumn
-            // 
-            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.DataPropertyName = "JPK Klasyfikacja";
-            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.HeaderText = "JPK Klasyfikacja";
-            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.Name = "jPKKlasyfikacjaDataGridViewTextBoxColumn";
-            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // kontrahenciBindingSource1
-            // 
-            this.kontrahenciBindingSource1.DataMember = "Kontrahenci";
-            this.kontrahenciBindingSource1.DataSource = this.database1DataSet;
-            // 
-            // database1DataSet
-            // 
-            this.database1DataSet.DataSetName = "Database1DataSet";
-            this.database1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.tabPage3);
@@ -780,7 +577,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
+            this.button7.Text = "Popraw";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -979,189 +776,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1428, 290);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nazwa kontrahenta";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Nazwa kontrahenta";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "NIP";
-            this.dataGridViewTextBoxColumn3.HeaderText = "NIP";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Miasto";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Miasto";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Kod";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Kod";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Ulica";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Ulica";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Kraj";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Kraj";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Wojewodztwo";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Wojewodztwo";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Powiat";
-            this.dataGridViewTextBoxColumn9.HeaderText = "Powiat";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Nr kontahenta";
-            this.dataGridViewTextBoxColumn10.HeaderText = "Nr kontahenta";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Konto FK";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Konto FK";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "REGON";
-            this.dataGridViewTextBoxColumn12.HeaderText = "REGON";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.DataPropertyName = "Płatnik";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Płatnik";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.DataPropertyName = "Uwagi";
-            this.dataGridViewTextBoxColumn14.HeaderText = "Uwagi";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "Ilość pkt_";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Ilość pkt_";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Wartość pkt_";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Wartość pkt_";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn17
-            // 
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "Konto Raks FM";
-            this.dataGridViewTextBoxColumn17.HeaderText = "Konto Raks FM";
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            this.dataGridViewTextBoxColumn17.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "Pesel";
-            this.dataGridViewTextBoxColumn18.HeaderText = "Pesel";
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "Nazwa klasyfikacji";
-            this.dataGridViewTextBoxColumn19.HeaderText = "Nazwa klasyfikacji";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "Nazwa grupy";
-            this.dataGridViewTextBoxColumn20.HeaderText = "Nazwa grupy";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "Handlowiec";
-            this.dataGridViewTextBoxColumn21.HeaderText = "Handlowiec";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "E-mail kontrahenta";
-            this.dataGridViewTextBoxColumn22.HeaderText = "E-mail kontrahenta";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "Nr telefonu";
-            this.dataGridViewTextBoxColumn23.HeaderText = "Nr telefonu";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "Allegro";
-            this.dataGridViewTextBoxColumn24.HeaderText = "Allegro";
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "Vc";
-            this.dataGridViewTextBoxColumn25.HeaderText = "Vc";
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.DataPropertyName = "JPK Klasyfikacja";
-            this.dataGridViewTextBoxColumn26.HeaderText = "JPK Klasyfikacja";
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.ReadOnly = true;
             // 
             // tabControl3
             // 
@@ -1414,21 +1028,6 @@
             this.RefKontrahenci.Interval = 5000;
             this.RefKontrahenci.Tick += new System.EventHandler(this.RefKontrahenci_Tick);
             // 
-            // kontrahenciBindingSource
-            // 
-            this.kontrahenciBindingSource.DataMember = "Kontrahenci";
-            this.kontrahenciBindingSource.DataSource = this.database1DataSet;
-            // 
-            // kontrahenciTableAdapter
-            // 
-            this.kontrahenciTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.KontrahenciTableAdapter = this.kontrahenciTableAdapter;
-            this.tableAdapterManager.UpdateOrder = PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
             // przycisk1ToolStripMenuItem
             // 
             this.przycisk1ToolStripMenuItem.AutoSize = false;
@@ -1621,6 +1220,407 @@
             this.ponowneLogowanieToolStripMenuItem.Size = new System.Drawing.Size(69, 76);
             this.ponowneLogowanieToolStripMenuItem.Text = "Ponowne logowanie";
             // 
+            // zmieńDatęToolStripMenuItem
+            // 
+            this.zmieńDatęToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zmieńDatęToolStripMenuItem.Enabled = false;
+            this.zmieńDatęToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("zmieńDatęToolStripMenuItem.Image")));
+            this.zmieńDatęToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.zmieńDatęToolStripMenuItem.Name = "zmieńDatęToolStripMenuItem";
+            this.zmieńDatęToolStripMenuItem.Size = new System.Drawing.Size(49, 76);
+            this.zmieńDatęToolStripMenuItem.Text = "Zmień datę";
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.Visible = false;
+            // 
+            // nazwaKontrahentaDataGridViewTextBoxColumn
+            // 
+            this.nazwaKontrahentaDataGridViewTextBoxColumn.DataPropertyName = "Nazwa kontrahenta";
+            this.nazwaKontrahentaDataGridViewTextBoxColumn.HeaderText = "Nazwa kontrahenta";
+            this.nazwaKontrahentaDataGridViewTextBoxColumn.Name = "nazwaKontrahentaDataGridViewTextBoxColumn";
+            this.nazwaKontrahentaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nIPDataGridViewTextBoxColumn
+            // 
+            this.nIPDataGridViewTextBoxColumn.DataPropertyName = "NIP";
+            this.nIPDataGridViewTextBoxColumn.HeaderText = "NIP";
+            this.nIPDataGridViewTextBoxColumn.Name = "nIPDataGridViewTextBoxColumn";
+            this.nIPDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // miastoDataGridViewTextBoxColumn
+            // 
+            this.miastoDataGridViewTextBoxColumn.DataPropertyName = "Miasto";
+            this.miastoDataGridViewTextBoxColumn.HeaderText = "Miasto";
+            this.miastoDataGridViewTextBoxColumn.Name = "miastoDataGridViewTextBoxColumn";
+            this.miastoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // kodDataGridViewTextBoxColumn
+            // 
+            this.kodDataGridViewTextBoxColumn.DataPropertyName = "Kod";
+            this.kodDataGridViewTextBoxColumn.HeaderText = "Kod";
+            this.kodDataGridViewTextBoxColumn.Name = "kodDataGridViewTextBoxColumn";
+            this.kodDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ulicaDataGridViewTextBoxColumn
+            // 
+            this.ulicaDataGridViewTextBoxColumn.DataPropertyName = "Ulica";
+            this.ulicaDataGridViewTextBoxColumn.HeaderText = "Ulica";
+            this.ulicaDataGridViewTextBoxColumn.Name = "ulicaDataGridViewTextBoxColumn";
+            this.ulicaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // krajDataGridViewTextBoxColumn
+            // 
+            this.krajDataGridViewTextBoxColumn.DataPropertyName = "Kraj";
+            this.krajDataGridViewTextBoxColumn.HeaderText = "Kraj";
+            this.krajDataGridViewTextBoxColumn.Name = "krajDataGridViewTextBoxColumn";
+            this.krajDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // wojewodztwoDataGridViewTextBoxColumn
+            // 
+            this.wojewodztwoDataGridViewTextBoxColumn.DataPropertyName = "Wojewodztwo";
+            this.wojewodztwoDataGridViewTextBoxColumn.HeaderText = "Wojewodztwo";
+            this.wojewodztwoDataGridViewTextBoxColumn.Name = "wojewodztwoDataGridViewTextBoxColumn";
+            this.wojewodztwoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // powiatDataGridViewTextBoxColumn
+            // 
+            this.powiatDataGridViewTextBoxColumn.DataPropertyName = "Powiat";
+            this.powiatDataGridViewTextBoxColumn.HeaderText = "Powiat";
+            this.powiatDataGridViewTextBoxColumn.Name = "powiatDataGridViewTextBoxColumn";
+            this.powiatDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nrKontahentaDataGridViewTextBoxColumn
+            // 
+            this.nrKontahentaDataGridViewTextBoxColumn.DataPropertyName = "Nr kontahenta";
+            this.nrKontahentaDataGridViewTextBoxColumn.HeaderText = "Nr kontahenta";
+            this.nrKontahentaDataGridViewTextBoxColumn.Name = "nrKontahentaDataGridViewTextBoxColumn";
+            this.nrKontahentaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // kontoFKDataGridViewTextBoxColumn
+            // 
+            this.kontoFKDataGridViewTextBoxColumn.DataPropertyName = "Konto FK";
+            this.kontoFKDataGridViewTextBoxColumn.HeaderText = "Konto FK";
+            this.kontoFKDataGridViewTextBoxColumn.Name = "kontoFKDataGridViewTextBoxColumn";
+            this.kontoFKDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // rEGONDataGridViewTextBoxColumn
+            // 
+            this.rEGONDataGridViewTextBoxColumn.DataPropertyName = "REGON";
+            this.rEGONDataGridViewTextBoxColumn.HeaderText = "REGON";
+            this.rEGONDataGridViewTextBoxColumn.Name = "rEGONDataGridViewTextBoxColumn";
+            this.rEGONDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // płatnikDataGridViewTextBoxColumn
+            // 
+            this.płatnikDataGridViewTextBoxColumn.DataPropertyName = "Płatnik";
+            this.płatnikDataGridViewTextBoxColumn.HeaderText = "Płatnik";
+            this.płatnikDataGridViewTextBoxColumn.Name = "płatnikDataGridViewTextBoxColumn";
+            this.płatnikDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // uwagiDataGridViewTextBoxColumn
+            // 
+            this.uwagiDataGridViewTextBoxColumn.DataPropertyName = "Uwagi";
+            this.uwagiDataGridViewTextBoxColumn.HeaderText = "Uwagi";
+            this.uwagiDataGridViewTextBoxColumn.Name = "uwagiDataGridViewTextBoxColumn";
+            this.uwagiDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ilośćPktDataGridViewTextBoxColumn
+            // 
+            this.ilośćPktDataGridViewTextBoxColumn.DataPropertyName = "Ilość pkt_";
+            this.ilośćPktDataGridViewTextBoxColumn.HeaderText = "Ilość pkt_";
+            this.ilośćPktDataGridViewTextBoxColumn.Name = "ilośćPktDataGridViewTextBoxColumn";
+            this.ilośćPktDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // wartośćPktDataGridViewTextBoxColumn
+            // 
+            this.wartośćPktDataGridViewTextBoxColumn.DataPropertyName = "Wartość pkt_";
+            this.wartośćPktDataGridViewTextBoxColumn.HeaderText = "Wartość pkt_";
+            this.wartośćPktDataGridViewTextBoxColumn.Name = "wartośćPktDataGridViewTextBoxColumn";
+            this.wartośćPktDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // kontoRaksFMDataGridViewTextBoxColumn
+            // 
+            this.kontoRaksFMDataGridViewTextBoxColumn.DataPropertyName = "Konto Raks FM";
+            this.kontoRaksFMDataGridViewTextBoxColumn.HeaderText = "Konto Raks FM";
+            this.kontoRaksFMDataGridViewTextBoxColumn.Name = "kontoRaksFMDataGridViewTextBoxColumn";
+            this.kontoRaksFMDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // peselDataGridViewTextBoxColumn
+            // 
+            this.peselDataGridViewTextBoxColumn.DataPropertyName = "Pesel";
+            this.peselDataGridViewTextBoxColumn.HeaderText = "Pesel";
+            this.peselDataGridViewTextBoxColumn.Name = "peselDataGridViewTextBoxColumn";
+            this.peselDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nazwaKlasyfikacjiDataGridViewTextBoxColumn
+            // 
+            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.DataPropertyName = "Nazwa klasyfikacji";
+            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.HeaderText = "Nazwa klasyfikacji";
+            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.Name = "nazwaKlasyfikacjiDataGridViewTextBoxColumn";
+            this.nazwaKlasyfikacjiDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nazwaGrupyDataGridViewTextBoxColumn
+            // 
+            this.nazwaGrupyDataGridViewTextBoxColumn.DataPropertyName = "Nazwa grupy";
+            this.nazwaGrupyDataGridViewTextBoxColumn.HeaderText = "Nazwa grupy";
+            this.nazwaGrupyDataGridViewTextBoxColumn.Name = "nazwaGrupyDataGridViewTextBoxColumn";
+            this.nazwaGrupyDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // handlowiecDataGridViewTextBoxColumn
+            // 
+            this.handlowiecDataGridViewTextBoxColumn.DataPropertyName = "Handlowiec";
+            this.handlowiecDataGridViewTextBoxColumn.HeaderText = "Handlowiec";
+            this.handlowiecDataGridViewTextBoxColumn.Name = "handlowiecDataGridViewTextBoxColumn";
+            this.handlowiecDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emailKontrahentaDataGridViewTextBoxColumn
+            // 
+            this.emailKontrahentaDataGridViewTextBoxColumn.DataPropertyName = "E-mail kontrahenta";
+            this.emailKontrahentaDataGridViewTextBoxColumn.HeaderText = "E-mail kontrahenta";
+            this.emailKontrahentaDataGridViewTextBoxColumn.Name = "emailKontrahentaDataGridViewTextBoxColumn";
+            this.emailKontrahentaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nrTelefonuDataGridViewTextBoxColumn
+            // 
+            this.nrTelefonuDataGridViewTextBoxColumn.DataPropertyName = "Nr telefonu";
+            this.nrTelefonuDataGridViewTextBoxColumn.HeaderText = "Nr telefonu";
+            this.nrTelefonuDataGridViewTextBoxColumn.Name = "nrTelefonuDataGridViewTextBoxColumn";
+            this.nrTelefonuDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // allegroDataGridViewTextBoxColumn
+            // 
+            this.allegroDataGridViewTextBoxColumn.DataPropertyName = "Allegro";
+            this.allegroDataGridViewTextBoxColumn.HeaderText = "Allegro";
+            this.allegroDataGridViewTextBoxColumn.Name = "allegroDataGridViewTextBoxColumn";
+            this.allegroDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // vcDataGridViewTextBoxColumn
+            // 
+            this.vcDataGridViewTextBoxColumn.DataPropertyName = "Vc";
+            this.vcDataGridViewTextBoxColumn.HeaderText = "Vc";
+            this.vcDataGridViewTextBoxColumn.Name = "vcDataGridViewTextBoxColumn";
+            this.vcDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // jPKKlasyfikacjaDataGridViewTextBoxColumn
+            // 
+            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.DataPropertyName = "JPK Klasyfikacja";
+            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.HeaderText = "JPK Klasyfikacja";
+            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.Name = "jPKKlasyfikacjaDataGridViewTextBoxColumn";
+            this.jPKKlasyfikacjaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // kontrahenciBindingSource1
+            // 
+            this.kontrahenciBindingSource1.DataMember = "Kontrahenci";
+            this.kontrahenciBindingSource1.DataSource = this.database1DataSet;
+            // 
+            // database1DataSet
+            // 
+            this.database1DataSet.DataSetName = "Database1DataSet";
+            this.database1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nazwa kontrahenta";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Nazwa kontrahenta";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "NIP";
+            this.dataGridViewTextBoxColumn3.HeaderText = "NIP";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Miasto";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Miasto";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Kod";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Kod";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Ulica";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Ulica";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Kraj";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Kraj";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Wojewodztwo";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Wojewodztwo";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Powiat";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Powiat";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Nr kontahenta";
+            this.dataGridViewTextBoxColumn10.HeaderText = "Nr kontahenta";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Konto FK";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Konto FK";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "REGON";
+            this.dataGridViewTextBoxColumn12.HeaderText = "REGON";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.DataPropertyName = "Płatnik";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Płatnik";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.DataPropertyName = "Uwagi";
+            this.dataGridViewTextBoxColumn14.HeaderText = "Uwagi";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Ilość pkt_";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Ilość pkt_";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Wartość pkt_";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Wartość pkt_";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "Konto Raks FM";
+            this.dataGridViewTextBoxColumn17.HeaderText = "Konto Raks FM";
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            this.dataGridViewTextBoxColumn17.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "Pesel";
+            this.dataGridViewTextBoxColumn18.HeaderText = "Pesel";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "Nazwa klasyfikacji";
+            this.dataGridViewTextBoxColumn19.HeaderText = "Nazwa klasyfikacji";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "Nazwa grupy";
+            this.dataGridViewTextBoxColumn20.HeaderText = "Nazwa grupy";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "Handlowiec";
+            this.dataGridViewTextBoxColumn21.HeaderText = "Handlowiec";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "E-mail kontrahenta";
+            this.dataGridViewTextBoxColumn22.HeaderText = "E-mail kontrahenta";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "Nr telefonu";
+            this.dataGridViewTextBoxColumn23.HeaderText = "Nr telefonu";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "Allegro";
+            this.dataGridViewTextBoxColumn24.HeaderText = "Allegro";
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "Vc";
+            this.dataGridViewTextBoxColumn25.HeaderText = "Vc";
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "JPK Klasyfikacja";
+            this.dataGridViewTextBoxColumn26.HeaderText = "JPK Klasyfikacja";
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            // 
+            // kontrahenciBindingSource
+            // 
+            this.kontrahenciBindingSource.DataMember = "Kontrahenci";
+            this.kontrahenciBindingSource.DataSource = this.database1DataSet;
+            // 
+            // kontrahenciTableAdapter
+            // 
+            this.kontrahenciTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.KontrahenciTableAdapter = this.kontrahenciTableAdapter;
+            this.tableAdapterManager.UpdateOrder = PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1653,8 +1653,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
             this.tabControl2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -1671,6 +1669,8 @@
             this.tabControl3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
