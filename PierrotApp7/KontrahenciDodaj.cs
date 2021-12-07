@@ -21,7 +21,7 @@ namespace PierrotApp7
     {
 
         public static string nazwa;
-        public static string WynikA;
+        public static string WynikA;  // To jest pełny String Komunikatu
 
         public static string Regon;
 
@@ -30,7 +30,6 @@ namespace PierrotApp7
         public static string Nazwa;
 
         public static string Wojewodztwo;
-
 
         public static string Powiat;
 
@@ -52,72 +51,9 @@ namespace PierrotApp7
 
         public static string MiejscowoscPoczty;
 
-        public void PolaczBIR()
-        {
-            // Create a WSHttpBinding and set its property values.
-            WSHttpBinding myBinding = new WSHttpBinding();
-
-            myBinding.Security.Mode = SecurityMode.Transport;
-            myBinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;
-            myBinding.MessageEncoding = WSMessageEncoding.Mtom;
-
-            
-            EndpointAddress ea = new EndpointAddress(
-                        new Uri(@"https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc")); //test
-
-            ServiceReference1DEMO.UslugaBIRzewnPublClient cc = new ServiceReference1DEMO.UslugaBIRzewnPublClient(myBinding, ea);
-
-            cc.Open();
-            string strSID = cc.Zaloguj("abcde12345abcde12345");
-
-            string xmla;
-
-            using (OperationContextScope scope = new OperationContextScope(cc.InnerChannel))
-            {
-                HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
-                requestMessage.Headers.Add("sid", strSID);
-                OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
-
-                ServiceReference1DEMO.ParametryWyszukiwania objParametrtyGR1 = new ServiceReference1DEMO.ParametryWyszukiwania();
-                objParametrtyGR1.Nip = nIPTextBox.Text;
-                Wynik.Text += cc.DaneSzukajPodmioty(objParametrtyGR1);
-                //Wynik.Text += cc.DanePobierzPelnyRaport(rEGONTextBox.Text, "PublDaneRaportPrawna");
-
-                xmla = cc.DanePobierzPelnyRaport(rEGONTextBox.Text, "PublDaneRaportPrawna");
-
-                Wynik.Text += xmla;
-                
-                cc.Wyloguj(strSID);
-                //Wynik.Text += cc.GetValue("KomunikatKod");
-                //Wynik.Text += cc.GetValue("KomunikatTresc");
-                //Wynik.Text += cc.GetValue("StatusSesji");
 
 
-            }
-            cc.Close();
-            
-            string xml = Wynik.Text;
-
-            rEGONTextBox.Text = xml;
-
-
-            //string xmlContent = "<foo></foo>";
-
-            //XElement newNode = XDocument.Parse(xmla).Root;
-
-            XmlDocument doc = new XmlDocument();
-            doc.LoadXml(xml);
-            //doc.LoadXml(xmla.ToString());
-
-            rEGONTextBox.Text = doc["root"]["dane"]["Regon"].InnerText; //WILL RETURN "wrench"
-
-            //Wynik.Text = doc["item"]["name"].InnerText; //WILL RETURN "wrench"
-
-
-        }
-
-
-    public KontrahenciDodaj()
+        public KontrahenciDodaj()
         {
             InitializeComponent();
         }
@@ -144,18 +80,9 @@ namespace PierrotApp7
             this.kontrahenciTableAdapter.Fill(this.database1DataSet.Kontrahenci);
             bindingNavigatorAddNewItem.PerformClick();
 
-            //bindingNavigatorAddNewItem.
-
 
             Form2 f2 = new Form2();
-            //f2.Show();
-            //f2.Focus();
             f2.ShowDialog();
-            //Application.OpenForms[f2.Name].Focus();
-            //f2.Activate();
-
-
-
         }
 
 
@@ -172,11 +99,9 @@ namespace PierrotApp7
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PolaczBIR();
-            //string wynik = SprawdzenieStatusuFirmy(NIP.Text);
-            //SzczegoloweDaneFirmy(NIP.Text);
+            GlowneStatyczneMetody.PolaczBIR(nIPTextBox.Text);
+           // PolaczBIR();
 
-            //Wynik.Text = wynik;
         }
 
         private void KontrahenciDodaj_Activated(object sender, EventArgs e)
@@ -248,6 +173,37 @@ namespace PierrotApp7
         private void nIPTextBox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            int a = GlowneStatyczneMetody.PolaczBIR(nIPTextBox.Text);
+
+            switch (a)
+            {
+                case 4:
+                    Form3.Komunikat = a + " Nie znaleziono wpisu dla podanych kryteriów wyszukiwania." + KontrahenciDodaj.WynikA;
+                    break;
+                case 5:
+                    Form3.Komunikat = a + " Nieprawidłowa lub pusta nazwa raportu. " + KontrahenciDodaj.WynikA;
+                    break;
+                case 11:
+                    Form3.Komunikat = a + " Dla podmiotów skreślonych przed 2014-11-08 działalności PKD nie są udostępniane." + KontrahenciDodaj.WynikA;
+                    break;
+                case 21:
+                    Form3.Komunikat = a + " Podmiot nie jest spółką cywilną " + KontrahenciDodaj.WynikA;
+                    break;
+                case 22:
+                    Form3.Komunikat = a + " W rejestrze REGON brak jest wprowadzonych wspolników dla tej SC " + KontrahenciDodaj.WynikA;
+                    break;
+                default:
+                    Form3.Komunikat = a + " Pobrano dane z GUS" + KontrahenciDodaj.WynikA;
+                    break;
+            }
+
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
         }
     }
 }

@@ -57,24 +57,27 @@
             // NIP
             // 
             this.NIP.Location = new System.Drawing.Point(85, 53);
+            this.NIP.MaxLength = 10;
             this.NIP.Name = "NIP";
             this.NIP.Size = new System.Drawing.Size(100, 20);
             this.NIP.TabIndex = 34;
-            this.NIP.Text = "7772606887";
+            this.NIP.Tag = "0000000000";
+            this.NIP.Text = "0000000000";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(114, 95);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 95);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(309, 126);
             this.richTextBox1.TabIndex = 37;
             this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 291);
+            this.ClientSize = new System.Drawing.Size(333, 120);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(label1);

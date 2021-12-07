@@ -61,8 +61,6 @@
             System.Windows.Forms.Label label3;
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.nazwa_kontrahentaTextBox = new System.Windows.Forms.TextBox();
-            this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.database1DataSet = new PierrotApp7.Database1DataSet();
             this.nIPTextBox = new System.Windows.Forms.TextBox();
             this.miastoTextBox = new System.Windows.Forms.TextBox();
             this.kodTextBox = new System.Windows.Forms.TextBox();
@@ -77,8 +75,6 @@
             this.uwagiTextBox = new System.Windows.Forms.TextBox();
             this.ilość_pkt_TextBox = new System.Windows.Forms.TextBox();
             this.wartość_pkt_TextBox = new System.Windows.Forms.TextBox();
-            this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
-            this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
             this.kontrahenciBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -104,7 +100,6 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.Wynik = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -122,6 +117,11 @@
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet = new PierrotApp7.Database1DataSet();
+            this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
+            this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             nr_kontahentaLabel = new System.Windows.Forms.Label();
             nazwa_kontrahentaLabel = new System.Windows.Forms.Label();
             nIPLabel = new System.Windows.Forms.Label();
@@ -152,8 +152,6 @@
             label2 = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingNavigator)).BeginInit();
             this.kontrahenciBindingNavigator.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -162,6 +160,8 @@
             this.tabControl2.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // nr_kontahentaLabel
@@ -437,7 +437,7 @@
             this.groupBox1.Controls.Add(this.ilość_pkt_TextBox);
             this.groupBox1.Controls.Add(wartość_pkt_Label);
             this.groupBox1.Controls.Add(this.wartość_pkt_TextBox);
-            this.groupBox1.Location = new System.Drawing.Point(15, 84);
+            this.groupBox1.Location = new System.Drawing.Point(10, 29);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(561, 273);
             this.groupBox1.TabIndex = 0;
@@ -451,16 +451,6 @@
             this.nazwa_kontrahentaTextBox.Name = "nazwa_kontrahentaTextBox";
             this.nazwa_kontrahentaTextBox.Size = new System.Drawing.Size(100, 20);
             this.nazwa_kontrahentaTextBox.TabIndex = 3;
-            // 
-            // kontrahenciBindingSource
-            // 
-            this.kontrahenciBindingSource.DataMember = "Kontrahenci";
-            this.kontrahenciBindingSource.DataSource = this.database1DataSet;
-            // 
-            // database1DataSet
-            // 
-            this.database1DataSet.DataSetName = "Database1DataSet";
-            this.database1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // nIPTextBox
             // 
@@ -575,16 +565,6 @@
             this.wartość_pkt_TextBox.Size = new System.Drawing.Size(100, 20);
             this.wartość_pkt_TextBox.TabIndex = 31;
             // 
-            // kontrahenciTableAdapter
-            // 
-            this.kontrahenciTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.KontrahenciTableAdapter = this.kontrahenciTableAdapter;
-            this.tableAdapterManager.UpdateOrder = PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
             // kontrahenciBindingNavigator
             // 
             this.kontrahenciBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
@@ -681,9 +661,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.richTextBox1);
             this.groupBox2.Controls.Add(this.groupBox1);
             this.groupBox2.Controls.Add(this.tabControl2);
-            this.groupBox2.Controls.Add(this.Wynik);
             this.groupBox2.Location = new System.Drawing.Point(8, 15);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1035, 365);
@@ -699,6 +679,7 @@
             this.button2.TabIndex = 37;
             this.button2.Text = "Pobierz z GUS";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // tabControl2
             // 
@@ -850,20 +831,12 @@
             this.tabPage9.Text = "8) Dostawy";
             this.tabPage9.UseVisualStyleBackColor = true;
             // 
-            // Wynik
-            // 
-            this.Wynik.Location = new System.Drawing.Point(236, 18);
-            this.Wynik.Name = "Wynik";
-            this.Wynik.Size = new System.Drawing.Size(257, 60);
-            this.Wynik.TabIndex = 35;
-            this.Wynik.Text = "";
-            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1059, 402);
+            this.tabPage2.Size = new System.Drawing.Size(1086, 402);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "2) Dane handlowe";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -872,7 +845,7 @@
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1059, 402);
+            this.tabPage3.Size = new System.Drawing.Size(1086, 402);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "3) Dane handlowe c.d, JPK, program lojalnościowy";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -881,7 +854,7 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1059, 402);
+            this.tabPage4.Size = new System.Drawing.Size(1086, 402);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "4) Uwagi, inne";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -890,7 +863,7 @@
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1059, 402);
+            this.tabPage5.Size = new System.Drawing.Size(1086, 402);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "9) RODO";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1042,6 +1015,35 @@
             this.textBox3.Size = new System.Drawing.Size(18, 20);
             this.textBox3.TabIndex = 37;
             // 
+            // kontrahenciBindingSource
+            // 
+            this.kontrahenciBindingSource.DataMember = "Kontrahenci";
+            this.kontrahenciBindingSource.DataSource = this.database1DataSet;
+            // 
+            // database1DataSet
+            // 
+            this.database1DataSet.DataSetName = "Database1DataSet";
+            this.database1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // kontrahenciTableAdapter
+            // 
+            this.kontrahenciTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.KontrahenciTableAdapter = this.kontrahenciTableAdapter;
+            this.tableAdapterManager.UpdateOrder = PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(11, 308);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(317, 111);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
+            // 
             // KontrahenciDodaj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1058,8 +1060,6 @@
             this.Click += new System.EventHandler(this.KontrahenciDodaj_Click);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingNavigator)).EndInit();
             this.kontrahenciBindingNavigator.ResumeLayout(false);
             this.kontrahenciBindingNavigator.PerformLayout();
@@ -1071,6 +1071,8 @@
             this.tabPage6.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1135,11 +1137,11 @@
         private System.Windows.Forms.TextBox nazwa_klasyfikacjiTextBox;
         private System.Windows.Forms.TextBox peselTextBox;
         private System.Windows.Forms.TextBox konto_Raks_FMTextBox;
-        private System.Windows.Forms.RichTextBox Wynik;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

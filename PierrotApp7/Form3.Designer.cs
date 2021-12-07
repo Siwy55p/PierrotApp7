@@ -58,7 +58,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Komunikat";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
 
