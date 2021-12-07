@@ -113,6 +113,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Connected Services\ServiceReference1DEMO\PierrotApp7.ServiceReference1DEMO.DanePobierzPelnyRaportResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -178,6 +179,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -191,6 +197,44 @@
     <None Include="MenuIcon\PulpitInformacyjny.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MenuIcon\IconStart\ZmienDate.png" />
+    <None Include="MenuIcon\IconStart\PonowneLogowanie.png" />
+    <None Include="MenuIcon\IconStart\ZestawieniaAnalizy.png" />
+    <None Include="MenuIcon\IconStart\KonfiguracjaFirmy.png" />
+    <None Include="MenuIcon\IconStart\KonfiguracjaUzytkownika.png" />
+    <None Include="MenuIcon\IconStart\Uprawnienia.png" />
+    <None Include="MenuIcon\IconStart\ZleceniaSerwisowe.png" />
+    <None Include="MenuIcon\IconStart\Oferty.png" />
+    <None Include="MenuIcon\IconStart\ePoczta.png" />
+    <None Include="MenuIcon\IconStart\CrM.png" />
+    <None Include="MenuIcon\IconStart\DokumentyFinansowe.png" />
+    <None Include="MenuIcon\IconStart\Rozrachunki.png" />
+    <None Include="MenuIcon\IconStart\DokumentyHandlowe.png" />
+    <None Include="MenuIcon\IconStart\SprzedazDetaliczna.png" />
+    <None Include="MenuIcon\IconStart\ZamowieniaProdukcyjne.png" />
+    <None Include="MenuIcon\IconStart\Zamowienia.png" />
+    <None Include="MenuIcon\IconStart\DokumentyMagazynowe.png" />
+    <None Include="MenuIcon\IconStart\Kontrahenci.png" />
+    <None Include="MenuIcon\IconStart\PulpitInformacyjny.png" />
+    <None Include="MenuIcon\IconStart\Artykuly.png" />
+    <None Include="MenuIcon\IconStart\ZmienDate.jpg" />
+    <None Include="MenuIcon\IconStart\PonowneLogowanie.jpg" />
+    <None Include="MenuIcon\IconStart\ZestawieniaAnalizy.jpg" />
+    <None Include="MenuIcon\IconStart\KonfiguracjaFirmy.jpg" />
+    <None Include="MenuIcon\IconStart\KonfiguracjaUzytkownika.jpg" />
+    <None Include="MenuIcon\IconStart\Uprawnienia.jpg" />
+    <None Include="MenuIcon\IconStart\ZleceniaSerwisowe.jpg" />
+    <None Include="MenuIcon\IconStart\Oferty.jpg" />
+    <None Include="MenuIcon\IconStart\ePoczta.jpg" />
+    <None Include="MenuIcon\IconStart\CrM.jpg" />
+    <None Include="MenuIcon\IconStart\Artykuly.jpg" />
+    <None Include="MenuIcon\IconStart\Kontrahenci.jpg" />
+    <None Include="MenuIcon\IconStart\DokumentyFinansowe.jpg" />
+    <None Include="MenuIcon\IconStart\Rozrachunki.jpg" />
+    <None Include="MenuIcon\IconStart\DokumentyHandlowe.jpg" />
+    <None Include="MenuIcon\IconStart\SprzedazDetaliczna.jpg" />
+    <None Include="MenuIcon\IconStart\ZamowieniaProdukcyjne.jpg" />
+    <None Include="MenuIcon\IconStart\PulpitInformacyjny.jpg" />
     <None Include="MenuIcon\IconStart\Zamowienia.jpg" />
     <None Include="MenuIcon\IconStart\DokumentyMagazynowe.jpg" />
     <None Include="MenuIcon\DokumentyMagazynowe.jpg" />

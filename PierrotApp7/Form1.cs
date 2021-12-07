@@ -50,6 +50,15 @@ namespace PierrotApp7
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            int counttab = tabControl1.TabPages.Count;
+            for(int i = 0; i < counttab; i++)
+            {
+                tabControl1.TabPages.RemoveAt(0);
+            }
+            //tabControl1.TabPages.RemoveAt(7);
+            //tabControl1.TabPages.RemoveAt(8);
+
+
             // TODO: Ten wiersz kodu wczytuje dane do tabeli 'database1DataSet.Kontrahenci' . Możesz go przenieść lub usunąć.
             this.kontrahenciTableAdapter.Fill(this.database1DataSet.Kontrahenci);
 
@@ -63,6 +72,24 @@ namespace PierrotApp7
         private void RefKontrahenci_Tick(object sender, EventArgs e)
         {
             this.kontrahenciTableAdapter.Fill(this.database1DataSet.Kontrahenci);
+        }
+
+        private void kontrahenciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //tabControl1.TabPages.Clear();
+            //tabControl1.TabPages.Remove(curre);
+            //tabControl1.ta
+            //tabControl1.TabPages("Artykuly").Visible = false;
+            tabControl1.TabPages.Remove(Kontrahenci);
+            tabControl1.TabPages.Add(Kontrahenci);
+            tabControl1.SelectTab(Kontrahenci);
+        }
+
+        private void artykułyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl1.TabPages.Remove(Artykuly);
+            tabControl1.TabPages.Add(Artykuly);
+            tabControl1.SelectTab(Artykuly);
         }
     }
 }
