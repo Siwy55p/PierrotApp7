@@ -50,6 +50,8 @@ namespace PierrotApp7
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: Ten wiersz kodu wczytuje dane do tabeli 'database1Artykuly.Artykuly' . Możesz go przenieść lub usunąć.
+            this.artykulyTableAdapter.Fill(this.database1Artykuly.Artykuly);
             int counttab = tabControl1.TabPages.Count;
             for(int i = 0; i < counttab; i++)
             {
@@ -90,6 +92,22 @@ namespace PierrotApp7
             tabControl1.TabPages.Remove(Artykuly);
             tabControl1.TabPages.Add(Artykuly);
             tabControl1.SelectTab(Artykuly);
+        }
+
+        private void treeView2_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            DodajArtykul form2 = new DodajArtykul();
+            form2.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.artykulyTableAdapter.Fill(this.database1Artykuly.Artykuly);
         }
     }
 }

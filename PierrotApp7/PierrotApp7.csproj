@@ -77,6 +77,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Database1Artykuly.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1Artykuly.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Database1DataSet.cs">
       <DependentUpon>Database1DataSet.xsd</DependentUpon>
     </Compile>
@@ -89,6 +94,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DodajArtykul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajArtykul.Designer.cs">
+      <DependentUpon>DodajArtykul.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -117,6 +128,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DodajArtykul.resx">
+      <DependentUpon>DodajArtykul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +186,17 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ServiceReference1\UslugaBIRzewnPubl.wsdl" />
+    <None Include="Database1Artykuly.xsc">
+      <DependentUpon>Database1Artykuly.xsd</DependentUpon>
+    </None>
+    <None Include="Database1Artykuly.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1Artykuly.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1Artykuly.xss">
+      <DependentUpon>Database1Artykuly.xsd</DependentUpon>
+    </None>
     <None Include="Database1DataSet.xsc">
       <DependentUpon>Database1DataSet.xsd</DependentUpon>
     </None>
