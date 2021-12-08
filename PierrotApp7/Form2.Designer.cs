@@ -35,6 +35,15 @@
             label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(52, 56);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(28, 13);
+            label1.TabIndex = 36;
+            label1.Text = "NIP:";
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(191, 51);
@@ -44,15 +53,6 @@
             this.button1.Text = "Pobierz z GUS";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(52, 56);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(28, 13);
-            label1.TabIndex = 36;
-            label1.Text = "NIP:";
             // 
             // NIP
             // 
@@ -66,7 +66,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 95);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 93);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(309, 126);
             this.richTextBox1.TabIndex = 37;

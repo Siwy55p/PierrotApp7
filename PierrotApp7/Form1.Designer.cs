@@ -30,22 +30,23 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Węzeł1");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Węzeł0", new System.Windows.Forms.TreeNode[] {
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Węzeł3");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Węzeł4");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Węzeł2", new System.Windows.Forms.TreeNode[] {
-            treeNode36,
-            treeNode37});
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Węzeł6");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Węzeł5", new System.Windows.Forms.TreeNode[] {
-            treeNode39});
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Węzeł3");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Węzeł4");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Węzeł2", new System.Windows.Forms.TreeNode[] {
-            treeNode31,
-            treeNode32});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Węzeł1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Węzeł0", new System.Windows.Forms.TreeNode[] {
+            treeNode1});
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Węzeł3");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Węzeł4");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Węzeł2", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode4});
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Węzeł6");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Węzeł5", new System.Windows.Forms.TreeNode[] {
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Węzeł0");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Węzeł3");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Węzeł4");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Węzeł2", new System.Windows.Forms.TreeNode[] {
+            treeNode9,
+            treeNode10});
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.startToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.magazynToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -134,42 +135,6 @@
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.treeView2 = new System.Windows.Forms.TreeView();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.artykulyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.database1Artykuly = new PierrotApp7.Database1Artykuly();
-            this.tabControl3 = new System.Windows.Forms.TabControl();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.RefKontrahenci = new System.Windows.Forms.Timer(this.components);
-            this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
-            this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
-            this.artykulyTableAdapter = new PierrotApp7.Database1ArtykulyTableAdapters.ArtykulyTableAdapter();
-            this.tableAdapterManager1 = new PierrotApp7.Database1ArtykulyTableAdapters.TableAdapterManager();
             this.artykulyDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -212,6 +177,42 @@
             this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.artykulyBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1Artykuly = new PierrotApp7.Database1Artykuly();
+            this.tabControl3 = new System.Windows.Forms.TabControl();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.RefKontrahenci = new System.Windows.Forms.Timer(this.components);
+            this.kontrahenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kontrahenciTableAdapter = new PierrotApp7.Database1DataSetTableAdapters.KontrahenciTableAdapter();
+            this.tableAdapterManager = new PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager();
+            this.artykulyTableAdapter = new PierrotApp7.Database1ArtykulyTableAdapters.ArtykulyTableAdapter();
+            this.tableAdapterManager1 = new PierrotApp7.Database1ArtykulyTableAdapters.TableAdapterManager();
             this.menuStrip1.SuspendLayout();
             this.MenuMagazyn.SuspendLayout();
             this.MenuStart.SuspendLayout();
@@ -240,6 +241,7 @@
             this.splitContainer4.Panel1.SuspendLayout();
             this.splitContainer4.Panel2.SuspendLayout();
             this.splitContainer4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.artykulyDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.artykulyBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1Artykuly)).BeginInit();
             this.tabControl3.SuspendLayout();
@@ -247,7 +249,6 @@
             this.panel3.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.artykulyDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -647,24 +648,27 @@
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode34.Name = "Węzeł1";
-            treeNode34.Text = "Węzeł1";
-            treeNode35.Name = "Węzeł0";
-            treeNode35.Text = "Węzeł0";
-            treeNode36.Name = "Węzeł3";
-            treeNode36.Text = "Węzeł3";
-            treeNode37.Name = "Węzeł4";
-            treeNode37.Text = "Węzeł4";
-            treeNode38.Name = "Węzeł2";
-            treeNode38.Text = "Węzeł2";
-            treeNode39.Name = "Węzeł6";
-            treeNode39.Text = "Węzeł6";
-            treeNode40.Name = "Węzeł5";
-            treeNode40.Text = "Węzeł5";
+            treeNode1.Name = "Węzeł1";
+            treeNode1.Text = "Węzeł1";
+            treeNode2.Name = "Węzeł0";
+            treeNode2.Text = "Węzeł0";
+            treeNode3.Name = "Węzeł3";
+            treeNode3.Text = "Węzeł3";
+            treeNode4.Name = "Węzeł4";
+            treeNode4.Text = "Węzeł4";
+            treeNode5.Name = "Węzeł2";
+            treeNode5.Text = "Węzeł2";
+            treeNode6.Name = "Węzeł6";
+            treeNode6.Text = "Węzeł6";
+            treeNode7.Name = "Węzeł5";
+            treeNode7.Text = "Węzeł5";
+            treeNode8.Name = "Węzeł0";
+            treeNode8.Text = "Węzeł0";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode35,
-            treeNode38,
-            treeNode40});
+            treeNode2,
+            treeNode5,
+            treeNode7,
+            treeNode8});
             this.treeView1.Size = new System.Drawing.Size(268, 566);
             this.treeView1.TabIndex = 0;
             // 
@@ -1107,14 +1111,14 @@
             this.treeView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView2.Location = new System.Drawing.Point(0, 0);
             this.treeView2.Name = "treeView2";
-            treeNode31.Name = "Węzeł3";
-            treeNode31.Text = "Węzeł3";
-            treeNode32.Name = "Węzeł4";
-            treeNode32.Text = "Węzeł4";
-            treeNode33.Name = "Węzeł2";
-            treeNode33.Text = "Węzeł2";
+            treeNode9.Name = "Węzeł3";
+            treeNode9.Text = "Węzeł3";
+            treeNode10.Name = "Węzeł4";
+            treeNode10.Text = "Węzeł4";
+            treeNode11.Name = "Węzeł2";
+            treeNode11.Text = "Węzeł2";
             this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode33});
+            treeNode11});
             this.treeView2.Size = new System.Drawing.Size(268, 566);
             this.treeView2.TabIndex = 0;
             this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
@@ -1138,305 +1142,6 @@
             this.splitContainer4.SplitterDistance = 290;
             this.splitContainer4.SplitterWidth = 10;
             this.splitContainer4.TabIndex = 0;
-            // 
-            // artykulyBindingSource
-            // 
-            this.artykulyBindingSource.DataMember = "Artykuly";
-            this.artykulyBindingSource.DataSource = this.database1Artykuly;
-            // 
-            // database1Artykuly
-            // 
-            this.database1Artykuly.DataSetName = "Database1Artykuly";
-            this.database1Artykuly.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tabControl3
-            // 
-            this.tabControl3.Controls.Add(this.tabPage14);
-            this.tabControl3.Controls.Add(this.tabPage15);
-            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl3.Location = new System.Drawing.Point(0, 0);
-            this.tabControl3.Name = "tabControl3";
-            this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(1428, 266);
-            this.tabControl3.TabIndex = 0;
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(1420, 240);
-            this.tabPage14.TabIndex = 0;
-            this.tabPage14.Text = "tabPage14";
-            this.tabPage14.UseVisualStyleBackColor = true;
-            // 
-            // tabPage15
-            // 
-            this.tabPage15.Location = new System.Drawing.Point(4, 22);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(1420, 240);
-            this.tabPage15.TabIndex = 1;
-            this.tabPage15.Text = "tabPage15";
-            this.tabPage15.UseVisualStyleBackColor = true;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.button17);
-            this.panel4.Controls.Add(this.button18);
-            this.panel4.Controls.Add(this.button19);
-            this.panel4.Controls.Add(this.button20);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(3, 600);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1708, 33);
-            this.panel4.TabIndex = 2;
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(248, 5);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 8;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(167, 5);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 7;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.Location = new System.Drawing.Point(86, 5);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 6;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(5, 5);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 5;
-            this.button20.Text = "Dodaj";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.button11);
-            this.panel3.Controls.Add(this.button12);
-            this.panel3.Controls.Add(this.button13);
-            this.panel3.Controls.Add(this.button14);
-            this.panel3.Controls.Add(this.button15);
-            this.panel3.Controls.Add(this.button16);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1708, 31);
-            this.panel3.TabIndex = 1;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(449, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 9;
-            this.button11.Text = "Odśwież";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(329, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(248, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 3;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(167, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 2;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(86, 3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 1;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(5, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.webBrowser1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "Pulpit Informacyjny";
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1714, 636);
-            this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("", System.UriKind.Relative);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage2.TabIndex = 3;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "tabPage6";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "tabPage7";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "tabPage8";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "tabPage9";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "tabPage10";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage11.TabIndex = 10;
-            this.tabPage11.Text = "tabPage11";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage12.TabIndex = 11;
-            this.tabPage12.Text = "tabPage12";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage13
-            // 
-            this.tabPage13.Location = new System.Drawing.Point(4, 22);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(1714, 636);
-            this.tabPage13.TabIndex = 12;
-            this.tabPage13.Text = "tabPage13";
-            this.tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // RefKontrahenci
-            // 
-            this.RefKontrahenci.Enabled = true;
-            this.RefKontrahenci.Interval = 5000;
-            this.RefKontrahenci.Tick += new System.EventHandler(this.RefKontrahenci_Tick);
-            // 
-            // kontrahenciBindingSource
-            // 
-            this.kontrahenciBindingSource.DataMember = "Kontrahenci";
-            this.kontrahenciBindingSource.DataSource = this.database1DataSet;
-            // 
-            // kontrahenciTableAdapter
-            // 
-            this.kontrahenciTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.KontrahenciTableAdapter = this.kontrahenciTableAdapter;
-            this.tableAdapterManager.UpdateOrder = PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // artykulyTableAdapter
-            // 
-            this.artykulyTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager1
-            // 
-            this.tableAdapterManager1.ArtykulyTableAdapter = this.artykulyTableAdapter;
-            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager1.UpdateOrder = PierrotApp7.Database1ArtykulyTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // artykulyDataGridView
             // 
@@ -1781,6 +1486,305 @@
             this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
             this.dataGridViewTextBoxColumn42.ReadOnly = true;
             // 
+            // artykulyBindingSource
+            // 
+            this.artykulyBindingSource.DataMember = "Artykuly";
+            this.artykulyBindingSource.DataSource = this.database1Artykuly;
+            // 
+            // database1Artykuly
+            // 
+            this.database1Artykuly.DataSetName = "Database1Artykuly";
+            this.database1Artykuly.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tabControl3
+            // 
+            this.tabControl3.Controls.Add(this.tabPage14);
+            this.tabControl3.Controls.Add(this.tabPage15);
+            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl3.Location = new System.Drawing.Point(0, 0);
+            this.tabControl3.Name = "tabControl3";
+            this.tabControl3.SelectedIndex = 0;
+            this.tabControl3.Size = new System.Drawing.Size(1428, 266);
+            this.tabControl3.TabIndex = 0;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage14.Size = new System.Drawing.Size(1420, 240);
+            this.tabPage14.TabIndex = 0;
+            this.tabPage14.Text = "tabPage14";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Location = new System.Drawing.Point(4, 22);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage15.Size = new System.Drawing.Size(1420, 240);
+            this.tabPage15.TabIndex = 1;
+            this.tabPage15.Text = "tabPage15";
+            this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.button17);
+            this.panel4.Controls.Add(this.button18);
+            this.panel4.Controls.Add(this.button19);
+            this.panel4.Controls.Add(this.button20);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(3, 600);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1708, 33);
+            this.panel4.TabIndex = 2;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(248, 5);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 8;
+            this.button17.Text = "button17";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(167, 5);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 23);
+            this.button18.TabIndex = 7;
+            this.button18.Text = "button18";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(86, 5);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(75, 23);
+            this.button19.TabIndex = 6;
+            this.button19.Text = "button19";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(5, 5);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(75, 23);
+            this.button20.TabIndex = 5;
+            this.button20.Text = "Dodaj";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button11);
+            this.panel3.Controls.Add(this.button12);
+            this.panel3.Controls.Add(this.button13);
+            this.panel3.Controls.Add(this.button14);
+            this.panel3.Controls.Add(this.button15);
+            this.panel3.Controls.Add(this.button16);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1708, 31);
+            this.panel3.TabIndex = 1;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(449, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 9;
+            this.button11.Text = "Odśwież";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(329, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 4;
+            this.button12.Text = "button12";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(248, 3);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 3;
+            this.button13.Text = "button13";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(167, 3);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 2;
+            this.button14.Text = "button14";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(86, 3);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 1;
+            this.button15.Text = "button15";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(5, 3);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "button16";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.webBrowser1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "Pulpit Informacyjny";
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(1714, 636);
+            this.webBrowser1.TabIndex = 0;
+            this.webBrowser1.Url = new System.Uri("", System.UriKind.Relative);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage2.TabIndex = 3;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "tabPage7";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "tabPage9";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "tabPage10";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage11.TabIndex = 10;
+            this.tabPage11.Text = "tabPage11";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage12.TabIndex = 11;
+            this.tabPage12.Text = "tabPage12";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Size = new System.Drawing.Size(1714, 636);
+            this.tabPage13.TabIndex = 12;
+            this.tabPage13.Text = "tabPage13";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // RefKontrahenci
+            // 
+            this.RefKontrahenci.Enabled = true;
+            this.RefKontrahenci.Interval = 5000;
+            this.RefKontrahenci.Tick += new System.EventHandler(this.RefKontrahenci_Tick);
+            // 
+            // kontrahenciBindingSource
+            // 
+            this.kontrahenciBindingSource.DataMember = "Kontrahenci";
+            this.kontrahenciBindingSource.DataSource = this.database1DataSet;
+            // 
+            // kontrahenciTableAdapter
+            // 
+            this.kontrahenciTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.KontrahenciTableAdapter = this.kontrahenciTableAdapter;
+            this.tableAdapterManager.UpdateOrder = PierrotApp7.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // artykulyTableAdapter
+            // 
+            this.artykulyTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager1
+            // 
+            this.tableAdapterManager1.ArtykulyTableAdapter = this.artykulyTableAdapter;
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.UpdateOrder = PierrotApp7.Database1ArtykulyTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1827,6 +1831,7 @@
             this.splitContainer4.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
             this.splitContainer4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.artykulyDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.artykulyBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1Artykuly)).EndInit();
             this.tabControl3.ResumeLayout(false);
@@ -1834,7 +1839,6 @@
             this.panel3.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kontrahenciBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.artykulyDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
